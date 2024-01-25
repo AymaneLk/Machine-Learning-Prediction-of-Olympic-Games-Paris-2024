@@ -1,0 +1,20 @@
+version: '3.7'
+services:
+
+  jo:
+    image: mariadb:latest
+    container_name: jo
+    restart: always
+    environment:
+      MYSQL_USER: jo
+      MYSQL_PASSWORD: jo
+      MYSQL_DATABASE: jo
+      MYSQL_ROOT_PASSWORD: jo
+    ports:
+      - '3311:3306'
+    networks:
+      - jo-network
+
+networks:
+  jo-network:
+    name: jo-network

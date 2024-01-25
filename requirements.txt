@@ -1,0 +1,16 @@
+# Libraries used in the project
+
+# Required for data manipulation
+pandas==2.1.4
+# Database connector for MySQL
+mysql-connector-python==8.0.25
+# For numerical operations
+numpy==1.26.3
+matplotlib==3.8.2
+seaborn==0.13.1
+sqlalchemy==2.0.25
+jupyter
+xlrd
+openpyxl
+sqlalchemy
+scikit-learn
